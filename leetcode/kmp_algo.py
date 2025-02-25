@@ -16,7 +16,7 @@ while i < len(pattern):
         prevLPS = lps[prevLPS - 1]
 print(lps)
 
-i, j = 0
+i=j = 0
 while i < len(sequence):
     if sequence[i] == pattern[j]:
         i, j = i + 1, j + 1
